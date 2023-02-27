@@ -7,6 +7,11 @@
 
 }
 
+body{
+    background-color: #F7F7F9;
+
+}
+
 .logo{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -18,8 +23,44 @@ nav {
     padding: 1rem 1rem;
 }
 
-.head {
-    height: 10vh;
-    background-color: aqua;
+.head, .hero {
+    background-color: white;
 }
 
+.head {
+    height: 10vh;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.marine {
+    padding: 1rem 1rem;
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+.hero{
+    border-bottom-left-radius: 50px;
+    padding-bottom: 4rem;
+}
+
+.software, .connect{
+    padding: 1rem 1rem;
+    font-weight: 400;
+}
+
+.software{
+    font-size: 1.2rem;
+    line-height: 24px;
+    color: #344563;
+    text-align: justify;
+    margin-bottom: -12px;
+}
+
+.connect{
+    color: #7f8cff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    padding-left: 1rem;
+}
